@@ -1,18 +1,34 @@
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
 #hero-container {
   background-image: url(./images/Jail-hall.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px;
+  
 }
 
 #hero-text-container {
   font-family: "Merriweather", serif;
   letter-spacing: .75rem;
+  
 }
 
 #phillip {
   color: whitesmoke;
   font-size: 4rem;
+  padding-top: 2rem;
 }
 
 #turner {
@@ -21,11 +37,29 @@
 }
 
 #hero-text {
-  font-size: 1rem;
+  letter-spacing: normal;
+  font-size: 1.5rem;
   font-weight: bold;
   color: whitesmoke;
 }
 
-#student {
-  color: darkslategrey;
+#us-flag{
+  height: 100px;
+}
+
+#mondrian{
+  height: 100px;
+}
+
+#tindog{
+  height: 100px;
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
