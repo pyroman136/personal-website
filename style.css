@@ -1,0 +1,31 @@
+#hero-container {
+  background-image: url(./images/Jail-hall.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+
+#hero-text-container {
+  font-family: "Merriweather", serif;
+  letter-spacing: .75rem;
+}
+
+#phillip {
+  color: whitesmoke;
+  font-size: 4rem;
+}
+
+#turner {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+#hero-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#student {
+  color: darkslategrey;
+}

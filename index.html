@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phillip Turner's Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <div id="hero-container" class="container-fluid mx-0 pt-5">
+      <div id="hero-text-container" class="text-center mt-5 pt-5">
+        <h1 class="display-5 fw-bold text-light pb-1">
+          <br />
+          Phillip
+        </h1>
+        <h1 class="display-5 fw-bold text-light pb-3">Turner</h1>
+        <div id="hero-text" class="col-lg-6 mx-auto">
+          <p id="hero-text" class="lead mb-3 pt-3">Web Developer</p>
+        </div>
+      </div>
+    </div>
+    <div class="b-example-divider bg-dark"></div>
+
+    <!-- Features -->
+
+    <div class="container-fluid px-4 pb-5 pt-3 bg-dark" id="custom-cards">
+      <!-- US Flag -->
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <a href="https://pyroman136.github.io/CSS-Flag-Project/">
+            <div
+              class="card card-contain h-100 text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url(./images/US\ Flag.png);
+                background-position-y: center;
+                background-position-x: right;
+              ">
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1 text-start">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  CSS American Flag
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li>
+                    <img id="us-flag" src="./images/US Flag.png" alt="" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Mondrian -->
+        <div class="col">
+          <a href="https://pyroman136.github.io/mondrian/">
+            <div
+              class="card card-contain h-100 text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./images/Mondrian\ Project.png');
+                background-position-y: center;
+                background-position-x: right;
+              ">
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Mondrian Grid Placement
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img id="mondrian" src="./images/Mondrian Project.png" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- Tindog -->
+        <div class="col">
+          <a href="https://pyroman136.github.io/Tindog/">
+            <div
+              class="card card-contain h-100 text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./images/tindog.png');
+                background-position-y: -200px;
+                background-position-x: -1000px;
+              ">
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1 text-black text-start">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Tindog <br />
+                  Website
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto"></ul>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="b-example-divider bg-dark"></div>
+    <!-- Resume -->
+    <div
+      class="container-fluid bg-dark py-5"
+      style="background-image: url(./images/pexels-pnw-production-8250927.jpg);">
+      <div class="col p-5 mb-4 rounded-3 text-light">
+        <div class="container d-flex flex-column py-5 align-items-center">
+          <h1 class="display-5 fw-bold text-center pb-5">My Resume</h1>
+          <a href="https://pyroman136.github.io/Phillip-Andrew-Turner-s-Resume/">
+          <button class="btn btn-outline-light btn-lg col-sm-12 link-light" type="button">
+            Resume
+          </button>
+        </a>
+        </div>
+      </div>
+    </div>
+    <div class="b-example-divider bg-dark"></div>
+    <!-- Contact -->
+    <div class="container-fluid bg-dark text-light">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-light">© 2023 Phillip Andrew Turner</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
